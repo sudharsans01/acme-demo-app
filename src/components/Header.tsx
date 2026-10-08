@@ -17,7 +17,7 @@ export default function Header() {
             <path d="M7 18c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="white" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
             <circle cx="14" cy="11" r="2.5" fill="white"/>
           </svg>
-          <span className="logo-text">ACMES <strong>CLOUD</strong></span>
+          <span className="logo-text">ACME <strong>CLOUD</strong></span>
           <span className="logo-divider">|</span>
           <span className="logo-sub">Demo Store</span>
         </div>
@@ -29,7 +29,7 @@ export default function Header() {
         </nav>
 
         <div className="header-right">
-          <span className="cloud-badge">☁ Cloud Demo</span>
+          <span className="cloud-badge">☁ Cloud Demos</span>
           <button className="hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Toggle menu">
             <span /><span /><span />
           </button>
