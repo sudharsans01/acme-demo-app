@@ -29,7 +29,7 @@ export default function Header() {
         </nav>
 
         <div className="header-right">
-          <span className="cloud-badge">☁ Cloud Demos</span>
+          <span className="cloud-badge">☁ Cloud Demo</span>
           <button className="hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Toggle menu">
             <span /><span /><span />
           </button>
